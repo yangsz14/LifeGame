@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LIFE GAME</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lifegame.css">
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		nav{
+			padding-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+<h1>Life Game</h1>
+<nav id="buttons">
+    <button id="randomInitBtn" onclick="RandomInitCellMatrix();">Random</button>
+    <button id="changeGameStateBtn" onclick="ChangeGameState();">Start</button>
+    <button id="clearBtn" onclick="Clear();">Clear</button>
+</nav>
+<canvas id="canvas1" width="800px" height="800px"></canvas>
+</body>
+<script type="text/javascript" src="lifegame.js"></script>
+</html>
